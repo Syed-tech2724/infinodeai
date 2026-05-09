@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0A0A0A;
+  --foreground: #FFFFFF;
+  --background-secondary: #111111;
+  --card: #161616;
+  --primary: #FFD700;
+  --secondary: #FFA500;
+  --text-secondary: #A0A0A0;
+  --border: rgba(255, 215, 0, 0.15);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-background-secondary: var(--background-secondary);
+  --color-card: var(--card);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-text-secondary: var(--text-secondary);
+  --color-border: var(--border);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glow Gold */
+.glow-gold {
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.25);
+}
+
+.glow-gold-hover:hover {
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+/* Dot Grid Background */
+.dot-grid {
+  background-image: radial-gradient(rgba(255, 215, 0, 0.1) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-strong {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 215, 0, 0.15);
+}
+
+/* Gold Border */
+.gold-border {
+  border: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.gold-border-hover:hover {
+  border-color: rgba(255, 215, 0, 0.5);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+}
+
+/* Green Border (WhatsApp) */
+.green-border {
+  border: 1px solid rgba(37, 211, 102, 0.2);
+}
+
+.green-border-hover:hover {
+  border-color: rgba(37, 211, 102, 0.5);
+  box-shadow: 0 0 20px rgba(37, 211, 102, 0.2);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #FFD700, #FFA500);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #FFD700, #FF8C00);
+}
+
+/* Animated Gradient Mesh */
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-mesh {
+  background: linear-gradient(
+    -45deg,
+    #0A0A0A,
+    #1a1a0a,
+    #0A0A0A,
+    #1a1000
+  );
+  background-size: 400% 400%;
+  animation: gradient-shift 15s ease infinite;
+}
+
+/* Pulse Animation */
+@keyframes pulse-gold {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(255, 215, 0, 0.5);
+  }
+}
+
+.pulse-gold {
+  animation: pulse-gold 2s ease-in-out infinite;
+}
+
+/* Float Animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Radial Glow */
+.radial-glow {
+  background: radial-gradient(circle, rgba(255, 215, 0, 0.15) 0%, transparent 70%);
+}
