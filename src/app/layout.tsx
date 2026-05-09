@@ -18,9 +18,17 @@ export const metadata: Metadata = {
   title: "Infinode AI — Automate the Impossible",
   description: "AI automation agency specializing in n8n workflows, lead management, and intelligent integrations",
   keywords: ["AI automation", "n8n", "workflow automation", "WhatsApp automation", "Discord bots", "AI agents"],
-  icons: {
-    icon: "/favicon.ico",
-  },
+  icons: [
+    {
+      url: "/favicon.ico",
+      rel: "icon",
+    },
+    {
+      url: "/Firefly (1).png",
+      rel: "icon",
+      type: "image/png",
+    },
+  ],
 };
 
 export default function RootLayout({
