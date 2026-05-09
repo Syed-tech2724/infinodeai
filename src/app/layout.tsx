@@ -20,7 +20,6 @@ export const metadata: Metadata = {
   keywords: ["AI automation", "n8n", "workflow automation", "WhatsApp automation", "Discord bots", "AI agents"],
   icons: {
     icon: "/favicon.ico",
-    appleTouchIcon: "/Firefly (1).png",
   },
 };
 
