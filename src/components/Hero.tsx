@@ -84,7 +84,7 @@ export default function Hero() {
           className="text-base md:text-lg text-[#A0A0A0] max-w-xl mx-auto mb-8"
         >
           Infinode AI designs intelligent automation systems using n8n, custom AI
-          agents, and smart integrations — so your business runs on autopilot.
+          agents, and smart integrations - so your business runs on autopilot.
         </motion.p>
 
         {/* CTA Buttons */}
