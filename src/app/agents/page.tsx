@@ -21,7 +21,7 @@ const useCases = [
   {
     icon: HelpCircle,
     title: "FAQ Bot",
-    description: "Instant answers to customer support questions 24/7",
+    description: "Instant answers to customer support questions - 24/7",
   },
   {
     icon: ShoppingCart,
@@ -64,13 +64,13 @@ export default function AgentsPage() {
               Your best salesperson works 24/7 and never misses a message
             </h2>
             <p className="text-xl text-[#A0A0A0] max-w-3xl mx-auto mb-8">
-              Deploy intelligent agents that respond, qualify, and convert leads — 24/7.
+              Deploy intelligent agents that respond, qualify, and convert leads - 24/7.
             </p>
 
             {/* Problem */}
             <div className="bg-red-500/10 border border-red-500/20 rounded-xl p-6 max-w-2xl mx-auto mb-8">
               <p className="text-white">
-                <span className="text-red-400 font-semibold">Problem:</span> Leads are asking questions on Instagram, your website, WhatsApp — and by the time someone replies, they've moved on.
+                <span className="text-red-400 font-semibold">Problem:</span> Leads are asking questions on Instagram, your website, WhatsApp - and by the time someone replies, they've moved on.
               </p>
             </div>
 
