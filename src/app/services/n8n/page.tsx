@@ -18,7 +18,7 @@ const steps = [
   },
   {
     title: "We Deploy",
-    description: "We test and hand it over — fully working",
+    description: "We test and hand it over - fully working",
   },
 ];
 
