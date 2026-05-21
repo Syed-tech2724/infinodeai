@@ -104,7 +104,7 @@ export default function WatiLeadHandlerPage() {
               <p className="text-lg text-[#A0A0A0]">
                 The client was receiving 100+ WhatsApp leads per day. Their sales
                 team was manually reading each one, copy-pasting info into a
-                spreadsheet, and assigning reps — losing 3-4 hours daily and
+                spreadsheet, and assigning reps - losing 3-4 hours daily and
                 dropping hot leads.
               </p>
             </GlassCard>
