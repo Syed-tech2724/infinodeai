@@ -26,7 +26,7 @@ const results = [
   {
     emoji: "⚡",
     title: "50+ members onboarded",
-    description: "per day — zero admin effort",
+    description: "per day - zero admin effort",
   },
   {
     emoji: "🎯",
@@ -104,7 +104,7 @@ export default function DiscordBotPage() {
               <p className="text-lg text-[#A0A0A0]">
                 A fast-growing Discord community was manually welcoming 50+ new
                 members daily, assigning roles one by one, and struggling to
-                maintain engagement — admins were burning out.
+                maintain engagement - admins were burning out.
               </p>
             </GlassCard>
           </motion.div>
