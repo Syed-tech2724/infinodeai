@@ -44,7 +44,7 @@ const steps = [
   {
     icon: Rocket,
     title: "We Deploy",
-    description: "We test and hand it over — fully working",
+    description: "We test and hand it over - fully working",
   },
 ];
 
@@ -76,7 +76,7 @@ export default function N8nPage() {
 
             {/* What We Do */}
             <p className="text-lg text-white max-w-2xl mx-auto">
-              <span className="text-[#FFD700] font-semibold">What we do:</span> We design and deploy custom n8n workflows that connect your apps, trigger actions automatically, and eliminate repetitive work — no code required on your end.
+              <span className="text-[#FFD700] font-semibold">What we do:</span> We design and deploy custom n8n workflows that connect your apps, trigger actions automatically, and eliminate repetitive work - no code required on your end.
             </p>
           </div>
 
