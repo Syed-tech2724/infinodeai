@@ -72,7 +72,7 @@ export default function AiAgentsPage() {
               Your smartest employee never clocks out
             </p>
             <p className="text-lg text-[#A0A0A0] max-w-2xl mx-auto">
-              Deploy intelligent agents that respond, qualify, and convert leads —
+              Deploy intelligent agents that respond, qualify, and convert leads -
               24/7, without human intervention.
             </p>
           </motion.div>
