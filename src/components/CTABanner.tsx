@@ -31,7 +31,7 @@ export default function CTABanner() {
           className="text-xl text-[#0A0A0A]/80 mb-8"
         >
           Book a free 30-minute discovery call. We&apos;ll map out your first
-          automation — no strings attached.
+          automation - no strings attached.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
