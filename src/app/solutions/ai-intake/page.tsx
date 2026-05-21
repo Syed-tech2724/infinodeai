@@ -104,7 +104,7 @@ export default function AiIntakePage() {
               <p className="text-lg text-[#A0A0A0]">
                 A consulting firm was receiving client intake forms but spending 30
                 minutes per submission manually reading, categorizing, and entering
-                data into their Airtable CRM — with no consistency.
+                data into their Airtable CRM - with no consistency.
               </p>
             </GlassCard>
           </motion.div>
