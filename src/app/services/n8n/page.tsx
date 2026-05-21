@@ -114,7 +114,7 @@ export default function N8nPage() {
             <GlassCard className="p-8">
               <p className="text-lg text-[#A0A0A0]">
                 We design and deploy custom n8n workflows that connect your apps,
-                trigger actions automatically, and eliminate repetitive work — no
+                trigger actions automatically, and eliminate repetitive work - no
                 code required on your end.
               </p>
             </GlassCard>
