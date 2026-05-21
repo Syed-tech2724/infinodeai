@@ -25,7 +25,7 @@ export default function Button({
         onClick={onClick}
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
-        className={`px-8 py-4 bg-[#FFD700] text-black font-semibold rounded-full transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,215,0,0.4)] ${className}`}
+        className={`px-8 py-3 bg-[#FFD700] text-black font-semibold rounded-full transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,215,0,0.4)] flex items-center justify-center align-middle ${className}`}
       >
         {children}
       </motion.button>
@@ -38,7 +38,7 @@ export default function Button({
       onClick={onClick}
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.98 }}
-      className={`px-8 py-4 border-2 border-[#FFD700] text-[#FFD700] font-semibold rounded-full transition-all duration-300 hover:bg-[#FFD700]/10 ${className}`}
+      className={`px-8 py-3 border-2 border-[#FFD700] text-[#FFD700] font-semibold rounded-full transition-all duration-300 hover:bg-[#FFD700]/10 flex items-center justify-center align-middle ${className}`}
     >
       {children}
     </motion.button>
