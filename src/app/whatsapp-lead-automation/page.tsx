@@ -66,7 +66,7 @@ export default function WhatsAppLeadAutomationPage() {
               Turn WhatsApp into your highest-converting sales channel
             </h2>
             <p className="text-xl text-[#A0A0A0] max-w-3xl mx-auto mb-8">
-              WhatsApp has 90%+ open rates but most businesses still manage it manually — slow replies, missed follow-ups, zero tracking.
+              WhatsApp has 90%+ open rates but most businesses still manage it manually - slow replies, missed follow-ups, zero tracking.
             </p>
 
             {/* Problem */}
