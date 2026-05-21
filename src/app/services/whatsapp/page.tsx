@@ -115,7 +115,7 @@ export default function WhatsAppPage() {
               <p className="text-lg text-[#A0A0A0]">
                 We build automated WATI + n8n pipelines that instantly respond to new
                 leads, collect info, qualify them, and route the hot ones to your
-                sales team — all inside WhatsApp.
+                sales team - all inside WhatsApp.
               </p>
             </GlassCard>
           </motion.div>
