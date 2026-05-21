@@ -52,7 +52,7 @@ export default function HowItWorks() {
                 className="relative text-center"
               >
                 {/* Number Badge */}
-                <div className="absolute -top-8 left-1/2 -translate-x-1/2 text-8xl font-bold text-[#FFD700]/10">
+                <div className="absolute -top-8 left-1/2 -translate-x-1/2 text-8xl font-bold text-[#FFD700]/10 hidden">
                   {step.number}
                 </div>
 
