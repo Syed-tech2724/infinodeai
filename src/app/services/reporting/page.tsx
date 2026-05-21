@@ -116,7 +116,7 @@ export default function ReportingPage() {
               <p className="text-lg text-[#A0A0A0]">
                 We build automated reporting pipelines that pull data from all your
                 platforms, process it with AI, and deliver clean dashboards and
-                daily digests directly to your inbox or Slack — automatically.
+                daily digests directly to your inbox or Slack - automatically.
               </p>
             </GlassCard>
           </motion.div>
