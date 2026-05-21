@@ -73,7 +73,7 @@ export default function DiscordPage() {
             </p>
             <p className="text-lg text-[#A0A0A0] max-w-2xl mx-auto">
               Custom bots that manage your community, onboard users, and handle
-              support — automatically.
+              support - automatically.
             </p>
           </motion.div>
         </div>
