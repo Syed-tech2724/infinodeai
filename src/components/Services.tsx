@@ -19,7 +19,7 @@ const services = [
     icon: Bot,
     title: "AI Agents & Chatbots",
     description:
-      "Deploy intelligent agents that respond, qualify, and convert leads — 24/7.",
+      "Deploy intelligent agents that respond, qualify, and convert leads - 24/7.",
   },
   {
     slug: "whatsapp",
