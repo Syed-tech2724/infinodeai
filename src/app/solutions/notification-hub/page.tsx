@@ -103,7 +103,7 @@ export default function NotificationHubPage() {
             <GlassCard className="p-8">
               <p className="text-lg text-[#A0A0A0]">
                 A SaaS company had alerts firing from Stripe, GitHub, Jira, Google
-                Analytics, and 6 other tools — all going to different places.
+                Analytics, and 6 other tools - all going to different places.
                 Critical alerts were missed and the team was drowning in
                 notification noise.
               </p>
