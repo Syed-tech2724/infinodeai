@@ -93,7 +93,7 @@ export default function IntegrationsPage() {
             <GlassCard className="p-8">
               <p className="text-lg text-[#A0A0A0]">
                 Your team switches between 10+ apps daily. Data is scattered,
-                workflows are broken, and nothing talks to each other — costing
+                workflows are broken, and nothing talks to each other - costing
                 you time and money.
               </p>
             </GlassCard>
